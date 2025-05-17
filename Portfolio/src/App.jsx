@@ -3,6 +3,7 @@ import Header from "./Componets/Header"
 import About from "./Componets/About"
 import Services from "./Componets/Services";
 import './App.css'
+import Portfolio from "./Componets/Portfolio";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <About />
       <Services />
+      <Portfolio />
     </>
   );
 }
