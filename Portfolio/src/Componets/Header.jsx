@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/Logo.png"
 
 function App() {
   // These functions need to be defined in your component
@@ -17,7 +18,7 @@ function App() {
       <div className="container">
         <nav>
           <img
-            src="Logo.png"
+            src={logo}
             alt="logo"
             className="logo"
             style={{ width: "200px", height: "auto" }}

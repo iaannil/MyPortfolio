@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import profile from "../assets/1.jpeg"
 
 const About = () => {
   const [activeTab, setActiveTab] = useState('skills');
@@ -12,7 +13,7 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="about-col-1">
-            <img src="1.jpeg" alt="Profile" />
+            <img src={profile} alt="Profile" />
           </div>
           <div className="about-col-2">
             <h1 className="sub-title">About Me</h1>
