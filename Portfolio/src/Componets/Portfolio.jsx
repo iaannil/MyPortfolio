@@ -1,6 +1,6 @@
 import React from 'react';
-// import { faLink } from '@fortawesome/free-solid-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Portfolio = () => {
   return (
@@ -14,7 +14,7 @@ const Portfolio = () => {
               <h3>Social Media App</h3>
               <p>The app connects you to talented people around the world.</p>
               <a href="#">
-                {/* <FontAwesomeIcon icon={faLink} /> */}
+                <FontAwesomeIcon icon={faLink} />
               </a>
             </div>
           </div>
@@ -25,7 +25,7 @@ const Portfolio = () => {
               <h3>Chart Application</h3>
               <p>The app connects you to talented people around the world.</p>
               <a href="#">
-                {/* <FontAwesomeIcon icon={faLink} /> */}
+                <FontAwesomeIcon icon={faLink} />
               </a>
             </div>
           </div>
@@ -36,7 +36,7 @@ const Portfolio = () => {
               <h3>E-commerce</h3>
               <p>The app connects you to talented people around the world.</p>
               <a href="#">
-                {/* <FontAwesomeIcon icon={faLink} /> */}
+                <FontAwesomeIcon icon={faLink} />
               </a>
             </div>
           </div>
