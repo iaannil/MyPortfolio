@@ -15,36 +15,26 @@ const Portfolio = () => {
           <div className="work">
             <img src={sm} alt="Social Media App" /> 
             <div className="layer">
-              <h3>Social Media App</h3>
-              <p>The app connects you to talented people around the world.</p>
-              <a href="#">
+              <h3>QuickGPT – AI-Powered Content Generator</h3>
+              <p>Tech Stack: React.js, Tailwind CSS, Node.js, Express.js, MongoDB, OpenAI API, ImageKit, Axios, Postman,
+Git, Vercel</p>
+              <h4>- Built and deployed an AI-powered SaaS app that generates text & images using OpenAI API and
+ImageKit.</h4>
+              <h4>- Implemented JWT authentication & authorization, credit-based usage system, and payment gateway
+integration.</h4>
+              <h4>- Designed a responsive UI with React & Tailwind; developed RESTful APIs with Node/Express and tested
+with Postman.</h4>
+              <h4>- Deployed on Vercel with Git-based CI/CD, ensuring scalability and production readiness.</h4>
+              <a href="https://qgpt-project.vercel.app/
+">
                 <FontAwesomeIcon icon={faLink} />
               </a>
             </div>
           </div>
           
-          <div className="work">
-            <img src={chart} alt="Chart Application" /> 
-            <div className="layer">
-              <h3>Chart Application</h3>
-              <p>The app connects you to talented people around the world.</p>
-              <a href="#">
-                <FontAwesomeIcon icon={faLink} />
-              </a>
-            </div>
-          </div>
           
-          <div className="work">
-            <img src={ecom} alt="E-commerce Website" /> 
-            <div className="layer">
-              <h3>E-commerce</h3>
-              <p>The app connects you to talented people around the world.</p>
-              <a href="#">
-                <FontAwesomeIcon icon={faLink} />
-              </a>
-            </div>
-          </div>
-        </div>
+          
+          
         <a href="#" className="btn">See more</a>
       </div>
     </div>
